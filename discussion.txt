@@ -1,0 +1,69 @@
+Discussion Questions
+
+****Runtime****
+
+1. The number of animal crackers in the box determines the workload of figuring out whether the box contains an elephant.
+
+2. Runtimes in descending order of efficiency:
+
+    - O(1)
+    - O(log n)
+    - O(n)
+    - O(n log n)
+    - O(n^2)
+    - O(2^n)
+
+
+****Stacks and Queues****
+
+1. Better data structures
+    1. Pallet loading/unloading: Stack
+    2. Caps on bottles down an assembly line: Queue
+    3. Mathematical expression: Stack
+
+2. Other Queue Uses:
+    1. Taking numbers at the DMV
+    2. Looking for the highest ranked node with specific data in a tree (BFS)
+
+3. Other Stack Uses:
+    1. Taking laundry out of a laundry basket and placing it into a washing machine
+    2. Looking for a node with specific data in a tree (DFS)
+
+
+****Linked Lists****
+
+1. The nodes are the three split boxes which include data on the left ("Apple", "Berry", and "Cherry") and next with a pointer to the next node. The head is stored with LLIST and points to the first node in the list. No tail is tracked by LLIST in the diagram, but the tail is the cherry node.
+
+2. Doubly-linked list nodes have prev and next attributes, whereas singly-linked list nodes only have next.
+
+3. It is faster to append to a linked list if we keep track of the tail as an attribute because otherwise we would need to step through the list to find the tail before appending.
+
+
+****Trees****
+1. BFS algorithm order of visits from food to burritos:
+    food
+    Italian
+    Indian
+    Mexican
+    lasagna
+    pizza
+    tikka masala
+    saag
+    burritos
+
+2. DFS algorithm order of visits from food to Chicago-style:
+    food
+    Mexican
+    enchiladas
+    tacos
+    burritos
+    Indian
+    saag
+    tikka masala
+    Italian
+    pizza
+    Sicilian
+    New York-style
+    Chicago-style
+
+3. As opposed to other trees, binary search trees contain nodes with 2 children (left and right). They are efficient for searching because they have a rule for arrangement of left and right nodes.
